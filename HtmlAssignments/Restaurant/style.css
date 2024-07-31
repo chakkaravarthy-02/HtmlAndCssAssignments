@@ -1,0 +1,146 @@
+body{
+    background-color: black;
+    width:100%;
+    margin:0;
+    height:auto;
+    padding:0;
+}
+header{
+    width:80%;
+    margin-left:100px ;
+    margin-top:40px;
+    display: flex;
+    justify-content: space-between;
+}
+#spicy{
+    font-size: 80px;
+    color: yellow;
+}
+#sideOptions{
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+}
+.color{
+    margin-top: 30px;
+    font-size: 22px;
+    color:yellow;
+}
+
+#taste{
+    color:rgb(235, 153, 3);
+    font-size: 50px;
+}
+#fresh{
+    color: green;
+    font-size: 30px;
+    padding: 20px 0px 0px;
+}
+#call{
+    color:white;
+    font-size: 20px;
+    padding: 20px 0px 0px;
+}
+#bigImage{
+    height:100vh;
+    margin-top: 90px;
+    background-image: url("./pexels-ash-craig-122861-376464.jpg");
+    background-size: cover;
+}
+#bigImageInside{
+    padding: 20px 0px 0px 50px;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+}
+#order{
+    padding: 20px 0px 0px;
+}
+#order button{
+    border-radius: 20px;
+    border-color: white;
+    background-color: red;
+    color: white;
+    height:50px;
+    width:300px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+#menuText{
+    color: yellow;
+    font-size: 40px;
+}
+#menuDown{
+    display:flex;
+}
+.menuDownText{
+    color:rgb(111, 210, 111);
+    font-size: 30px;
+    margin-left: 300px;
+}
+#details{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#startdish{
+    display: flex;
+    justify-content: center;
+}
+#startdish ul{
+    list-style-type: none;
+}
+.startdishd{
+    margin-left:50px ;
+    font-size: 30px;
+}
+#maindish{
+    display: flex;
+    justify-content: center;
+}
+#maindish ul{
+    list-style-type: none;
+}
+.maindishd{
+    margin-left:60px ;
+    font-size: 30px;
+}
+#chatdish{
+    display: flex;
+    justify-content: center;
+    margin-right:10px ;
+}
+#chatdish ul{
+    list-style-type: none;
+}
+.chatdishd{
+    margin-left:50px ;
+    font-size: 30px;
+}
+#location{
+    color: yellow;
+    font-size: 30px;
+}
+.flex-1{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+#foot{
+    display: flex;
+    margin-right: 180px;
+    padding: 10px 0px;
+}
+.footDownText{
+    color:rgb(111, 210, 111);
+    font-size: 30px;
+    margin-left: 180px;
+}
+.footadd{
+    font-size: 20px;
+    color:cadetblue
+}
